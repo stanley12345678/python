@@ -19,7 +19,7 @@ time.sleep(int(0.5))
 time.sleep(int(1))
 
 zenbo_speakLanguage = 1
-zenbo.robot.set_expression(RobotFace.PREVIOUS, '我是黃品心', {
+zenbo.robot.set_expression(RobotFace.PREVIOUS, '我是林子盛', {
 'speed': zenbo_speakSpeed, 'pitch': zenbo_speakPitch, 'languageId': zenbo_speakLanguage}, sync=True)
 zenbo_speakLanguage = 1
 zenbo.robot.set_expression(RobotFace.PREVIOUS, '我來背九九乘法表', {
